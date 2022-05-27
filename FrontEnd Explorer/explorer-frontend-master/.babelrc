@@ -1,0 +1,16 @@
+{
+  "presets": ["react-app"],
+  "env": {
+    "EXAMPLE": {
+      "plugins": [
+        [
+          "babel-plugin-webpack-loaders",
+          {
+            "config": "./config/webpack.config.client.dev.js",
+            "verbose": false,
+          }
+        ]
+      ]
+    }
+  }
+}

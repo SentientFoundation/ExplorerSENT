@@ -1,0 +1,311 @@
+{
+  "common": {
+    "block": {
+      "adProofsRoot": "Хэш Секции Доказательства",
+      "age": "Время",
+      "block": "Блок",
+      "difficulty": "Сложность",
+      "powSolutions": "Решение PoW",
+      "extensionHash": "Хэш Секции Расширения",
+      "height": "Высота",
+      "id": "ID",
+      "votes": "Голоса",
+      "minedBy": "Майнер",
+      "minerReward": "Вознаграждение",
+      "nBits": "Биты",
+      "parent": "Предыдущий Блок",
+      "size": "Размер",
+      "stateRoot": "Хэш Состояния",
+      "transactions": "Транзакции",
+      "transactionsRoot": "Хэш Секции Транзакции",
+      "version": "Версия",
+      "headerId": "ID заголовка",
+      "digest": "Дайджест",
+      "fields": "Поля"
+    },
+    "token": {
+      "name": "Название",
+      "id": "Id",
+      "amount": "Количество",
+      "decimals": "Знаков после запятой",
+      "description": "Описание",
+      "showMore": "Показать еще",
+      "showLess": "Свернуть"
+    },
+    "pages": {
+      "address": {
+        "title": "Ergo Explorer | Адрес {id}"
+      },
+      "api": {
+        "title": "Ergo Explorer | API"
+      },
+      "block": {
+        "title": "Ergo Explorer | Блок {id}"
+      },
+      "chart": {
+        "title": {
+          "block-size": "Ergo Explorer | Средний размер блока",
+          "blockchain-size": "Ergo Explorer | Размер Блокчейна",
+          "difficulty": "Ergo Explorer | Сложность",
+          "hash-rate": "Ergo Explorer | Вычислительная Мощность",
+          "hash-rate-distribution": "Ergo Explorer | Распределение Вычислительной Мощности",
+          "miners-revenue": "Ergo Explorer | Награда Майнерам",
+          "total": "Ergo Explorer | Монеты в Обращении",
+          "transactions-per-block": "Ergo Explorer | Транзакций в Блоке"
+        }
+      },
+      "charts": {
+        "title": "Ergo Explorer | Графики"
+      },
+      "data": {
+        "title": "Ergo Explorer | Данные"
+      },
+      "not-found": {
+        "title": "Ergo Explorer | Страница не найдена"
+      },
+      "stats": {
+        "title": "Ergo Explorer | Статистика"
+      },
+      "transaction": {
+        "title": "Ergo Explorer | Транзакция {id}"
+      },
+      "wallet": {
+        "title": "Ergo Explorer | Кошелек"
+      }
+    },
+    "stats": {
+      "hashRate": "Вычислительная мощность",
+      "marketCap": "Капитализация",
+      "supply": "Монеты в Обращении",
+      "transactionAverage": "Транзакций в День",
+      "version": "Версия",
+      "max-supply": "Максимум монет"
+    },
+    "charts": {
+      "view": "График"
+    },
+    "navigation": {
+      "resources": "Ресурсы",
+      "latest-blocks": "Последние Блоки",
+      "mempool": "Mempool",
+      "oracle-pools": "Пулы Oracle",
+      "statistics": "Статистика",
+      "charts": "Графики",
+      "stats": "Статистика",
+      "tokens": "Токены",
+      "issued-tokens": "Выпущенные Токены",
+      "rich-list": "Rich List",
+      "more": "Больше",
+      "wallets": "Кошелек",
+      "api": "API",
+      "monitor": "Difficulty & Epoch monitor",
+      "ergo-watch": "Ergo Часы"
+    }
+  },
+  "components": {
+    "address-actions": {
+      "donation-button": "Собрать Пожертвование",
+      "qrcode": "QR Код",
+      "request-payment": "Запросить Платеж"
+    },
+    "address-qr-code-modal": {
+      "subtitle": "Отсканируйте Адрес",
+      "title": "QR Код"
+    },
+    "address-summary": {
+      "hash": "Адрес",
+      "title": "Сводка"
+    },
+    "address-transactions": {
+      "balance": "Баланс",
+      "title": "Транзакции",
+      "total": "Количество транзакций",
+      "totalReceived": "Получено монет"
+    },
+    "address": {
+      "title": "{coinName} Адрес"
+    },
+    "block-header": {
+      "adproofs": "AD Доказательства",
+      "back": "Назад ко всем блокам",
+      "information": "Информация",
+      "transactions": "Транзакции",
+      "extension": "Расширение"
+    },
+    "block-summary": {
+      "averageMiningTime": "Среднее время между блоками",
+      "minutes": "мин",
+      "title": "Статистика по Блокам",
+      "total": "Блоков добыто",
+      "totalCoins": "Монет добыто"
+    },
+    "chart-actions": {
+      "csv": "CSV",
+      "json": "JSON",
+      "linear-scale": "Линейный Масштаб",
+      "logarithmic-scale": "Логарифмический Масштаб"
+    },
+    "chart": {
+      "back": "Назад к графикам",
+      "hash-rate-distribution": {
+        "labels": {
+          "name": "Майнер",
+          "value": "Количество Блоков"
+        }
+      },
+      "subtitle": {
+        "block-size": "Средний размер блока",
+        "blockchain-size": "Суммарный размер всех блоков",
+        "difficulty": "Сложность добычи блоков",
+        "hash-rate": "Приблизительное колиество хэшей в секунду вычисляемое сетью",
+        "hash-rate-distribution": "Приблизительное распределение вычислительной мощности между майнерами",
+        "miners-revenue": "Суммарная награда выплаченная майнерам",
+        "total": "Количество монет в обращении",
+        "transactions-per-block": "Среднее количество транзакций в блоке"
+      },
+      "title": {
+        "block-size": "Средний размер блока",
+        "blockchain-size": "Размер Блокчейна",
+        "difficulty": "Сложность",
+        "hash-rate": "Вычислительная Мощность",
+        "hash-rate-distribution": "Распределение Вычислительной Мощности",
+        "miners-revenue": "Награда Майнерам",
+        "total": "Монет в Обращении",
+        "transactions-per-block": "Транзакций в Блоке"
+      }
+    },
+    "charts": {
+      "block-details": "Статистика по Блоку",
+      "currency-statistics": "Статистика Валюты",
+      "mining-information": "Статистика по Майнингу",
+      "title": "Графики"
+    },
+    "data": {
+      "show": "Показать",
+      "title": "Последние блоки",
+      "wrong-query": "Блоки не найдены. Попробуйте другие даты"
+    },
+    "home": {
+      "title": "Обозреватель блоков"
+    },
+    "language-switcher": {
+      "en": "English",
+      "ru": "Русский"
+    },
+    "mining-cost": {
+      "costPerTransaction": "Стоимость на Транзакцию",
+      "difficulty": "Сложность",
+      "hashRate": "Вычислительная Мощность",
+      "percentEarnedTransactionsFees": "% Заработаный На Комиссии За Транзакцию",
+      "percentTransactionVolume": "% От Объема Транзакций",
+      "title": "Стоимость Майнинга",
+      "totalMinersRevenue": "Суммарный доход майнеров"
+    },
+    "not-found": {
+      "title": "Страница не найдена"
+    },
+    "paginate-simple": {
+      "page": "Страница {current}",
+      "page-of": "Страница {current} из {total}"
+    },
+    "paginate": {
+      "next": "Дальше",
+      "prev": "Назад"
+    },
+    "payment-request-modal": {
+      "amount": "Количество",
+      "copied": "Скопировано",
+      "copy": "Копировать",
+      "description": "Описание",
+      "link": "Ссылка",
+      "subtitle": "Используйте эту форму чтобы настроить адрес для запроса перевода",
+      "title": "Запросить Перевод"
+    },
+    "payment-request": {
+      "copied": "Скопировано",
+      "copy": "Копировать",
+      "for": "Для",
+      "subtitle": "Вы можете отправить {coinName} на следующий адрес",
+      "title": "Запрос Перевода"
+    },
+    "search-results": {
+      "no-results": "Ничего не найдено. Попробуйте искать по адресу, хэшу блока или хэшу транзакции",
+      "wrong-query": "Поисковый запрос должен быть не меньше 5 символов"
+    },
+    "sidebar-menu": {
+      "items": {
+        "api": "API",
+        "charts": "Графики",
+        "data": "Данные",
+        "stats": "Статистика",
+        "issued-tokens": "Выпущенные токены",
+        "wallet": "Кошелек"
+      }
+    },
+    "stats": {
+      "subtitle": "Статистика за последние 24 часа",
+      "title": "{coinName} Статистика"
+    },
+    "timespan": {
+      "span": {
+        "180days": "180 Дней",
+        "1year": "1 Год",
+        "2years": "2 Года",
+        "30days": "30 Дней",
+        "60days": "60 Дней",
+        "alltime": "Все Время"
+      }
+    },
+    "transaction-io-summary": {
+      "feePerByte": "Комиссия за байт",
+      "hideScripts": "Спрятать скрипты и сoinbase",
+      "scripts": "Скрипты",
+      "showScripts": "Показать скрипты и coinbase",
+      "title": "Входы и Выходы",
+      "totalCoinsTransferred": "Общее количество монет",
+      "totalFee": "Комиссии"
+    },
+    "transaction-item": {
+      "address-output": "Выход",
+      "confirmation": {
+        "one": "Подтверждение",
+        "other": "Подтверждений"
+      },
+      "null-address": "Невозможно декодировать адрес",
+      "spent": "Потрачен",
+      "unconfirmed": "Нет подтверждений",
+      "unspent": "Непотрачен"
+    },
+    "transaction-summary": {
+      "blocks": "Включена в Блоки",
+      "confirmationsCount": "Подтверждения",
+      "size": "Размер",
+      "timestamp": "Время",
+      "title": "Сводка"
+    },
+    "transaction": {
+      "scripts": {
+        "input": "Входы",
+        "output": "Выходы"
+      },
+      "subtitle": "Инормация по ERGO транзакции",
+      "title": "Транзакция"
+    },
+    "issued-tokens": {
+      "title": "Выпущенные токены"
+    },
+    "transactions-summary": {
+      "title": "Сводка по Транзакции",
+      "total": "Количество Транзакций",
+      "totalFee": "Суммарная Комиссия",
+      "totalOutput": "Суммарный Объем Выхода"
+    },
+    "wallet": {
+      "title": "Кошелек пока не доступен"
+    },
+    "widget": {
+      "view-all-charts": "Смотреть все Графики",
+      "view-all": "Смотреть все"
+    }
+  }
+}
